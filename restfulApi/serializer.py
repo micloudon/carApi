@@ -4,7 +4,7 @@ from .models import Car
 class CarSerializer(serializers.Serializer):
     make = serializers.CharField(max_length=100)
     model = serializers.CharField(max_length=100)
-    year = serializers.Integeserializers()
+    year = serializers.IntegerField()
     fuelType = serializers.CharField(max_length=299)
     horsePower = serializers.IntegerField()
     cylinders = serializers.IntegerField()
@@ -33,7 +33,9 @@ class CarSerializer(serializers.Serializer):
         instance.highwayMpg = validated_data.get('highwayMpg', instance.highwayMpg)
         instance.cityMpg = validated_data.get('cityMpg', instance.cityMpg)
         instance.msrp = validated_data.get('msrp', instance.msrp)
+
+        instance.save()
         
-        return super().update(instance, validated_data)
+        return instance
 
 
