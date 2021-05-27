@@ -4,7 +4,7 @@
 
 ### It serves over 6000 articles of car data in the form of Json objects
 
-**access data using urls paths** 
+**Access data using urls paths:** 
 
 **/api/** check site Health  
 **/api/all** get all data  
