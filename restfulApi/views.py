@@ -6,10 +6,10 @@ from .models import Car
 from .serializer import CarSerializer
 
 def home(request):
-    return HttpResponse("Site is functional")
+    return HttpResponse("Site is Healthy")
 
 def api(request):
-    return HttpResponse("add all to url to see all JSON objects or add a number to get a specific object")
+    return HttpResponse("Site is Healthy, add all to url to see all JSON objects or add a number to get a specific object")
 
 def car_list(request):
 
