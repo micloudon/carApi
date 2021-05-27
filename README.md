@@ -9,7 +9,7 @@
 **/api/** check site Health  
 **/api/all** get all data  
 **/api/<id>** get a single data object by a numerical id (all the data has ordered numberic values ranging from 1-6516), so /api/100, would grab the 100th object of data.  
-**/api/make/** grabs all data objects associated with certain make of car
+**/api/make/** grabs all data objects associated with certain make of car  
 **/api/make/model/** grabs all data objects associated with certain make and model of car  
 **/api/make/model/year/** grabs all data objects associated with certain make, model and year of car
   
