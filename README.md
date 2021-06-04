@@ -1,7 +1,7 @@
 # Car Api  
 ## Live Site:  
-https://pacific-taiga-60618.herokuapp.com/api/ford/f-150/2017
-(Clicking this link will bring up serveral JSON objects containing data that relates to Acura Integra's from the year 2000,   
+https://pacific-taiga-60618.herokuapp.com/api/ford/f-150/2017  
+(Clicking this link will bring up serveral JSON objects containing data that relates to Ford F-150's from the year 2017,   
 read *access data using urls paths* below and try putting some different values in the url)
 
 ### This Api is Restful
