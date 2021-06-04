@@ -1,6 +1,6 @@
 # Car Api  
 ## Live Site:  
-http://ec2-54-245-43-7.us-west-2.compute.amazonaws.com/api/acura/integra/2000  
+https://pacific-taiga-60618.herokuapp.com/api/ford/f-150/2017
 (Clicking this link will bring up serveral JSON objects containing data that relates to Acura Integra's from the year 2000,   
 read *access data using urls paths* below and try putting some different values in the url)
 
@@ -45,7 +45,9 @@ Intergated Cli tool for testing:
 >python manage.py shell
 
 For deployment I used an AWS ec2 instance that runs ubuntu 18.04, which serves data to a mysql database that is hosted on AWS RDS.  
-I used nginx and uwsgi (uwsgi is similar to gunicorn) to serve to website.  
+I used nginx and uwsgi (uwsgi is similar to gunicorn) to serve to website. 
+
+(I moved my deployment to Heroku, so this isn't needed, but it still helpful in linux server deploy scenarios) 
 
 **Here is my nginx conf file*:*  
 
